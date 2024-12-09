@@ -4,8 +4,8 @@ function User (){
     return(
 <>
     <div className="mainpage">
-        <video className="vedio">
-            <source src={v1} type="video/mp4" />
+        <video className="vedio" allow="autoplay; fullscreen; encrypted-media">
+            <source src={v1} type="video/mp4"  />
         </video>
         <div className="nav">
             <img src="https://pbcdn1.podbean.com/fs1/site/images/logo-img2.png" alt="logo" />
@@ -44,7 +44,7 @@ function User (){
         </div>
         <div className="detail2">
             <div>
-                <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/h-feature@2x_resize_1x.webp" alt="detail" />
+                <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/h-feature@2x_resize_1x.webp" alt="detail" loading='lazy' />
             </div>
             <div className="detail2-1">
                 <h1>Create and publish your podcast like a pro</h1>
@@ -63,12 +63,12 @@ function User (){
                 <b>Learn how to promote your podcast</b>
             </div>
             <div>
-                <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/h-feature2_resize_1x.webp" alt="detail" />
+                <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/h-feature2_resize_1x.webp" alt="detail" loading="lazy" />
             </div>
         </div>
         <div className="detail4">
             <div>
-                <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/second-center@2x_resize_1x.webp" alt="detail" />
+                <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/second-center@2x_resize_1x.webp" alt="detail" loading="lazy" />
             </div>
             <div className="detail4-1">
                 <h1>Turn your passion into a new income stream</h1>
@@ -83,7 +83,7 @@ function User (){
         <div className="AI1"><h1>Elevate your podcast with Podbean AI</h1></div>
         <div className="AI2"><p>Elevate your podcast to new heights with Podbean AI’s cutting-edge features such as Noise Reduction, Intelligent Leveler, Cut Filler Words and Silence, Filtering & AutoEQ, Automated Title and Show Notes, AI Enhanced Transcripts, and Precisely Crafted Chapter Markers. Streamline your post-production tasks, reducing the time and effort required.</p></div>
         <div className="AI3"><b>Learn more about Podbean AI</b></div>
-        <div className="AI4"><img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/feature/home-ai-bg@2x_resize_1x.webp" alt="AI OF POADBEAn" /></div>
+        <div className="AI4"><img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/feature/home-ai-bg@2x_resize_1x.webp" alt="AI OF POADBEAn" loading="lazy" /></div>
     </div>
     <div className="podcast-website">
         <h1>Unlock a beautiful, professional,
@@ -96,7 +96,7 @@ function User (){
         <h1>Comprehensive podcast analytics</h1>
         <p>Podbean provides IAB-certified podcast analytics and intuitive charts to help you grow your podcast. Measure your success, get insights into your audience, and continue improving with industry-leading podcast statistics, included with all Podbean hosting plans.</p>
         <b>Start your own podcast now</b>
-        <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/mac-stats_resize_1x.webp" alt="analytics" />
+        <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/mac-stats_resize_1x.webp" alt="analytics" loading="lazy" />
     </div>
     <div className="pod-app">
         <h1>Podbean App simplifying your podcasting</h1>
@@ -110,7 +110,7 @@ function User (){
             <p className="dis">Transform your audio experience with powerful editing tools that allow you to effortlessly cut, split, merge, and export for a polished, professional finish.</p>
         </div>
         <div className="podappgrid2">
-            <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/start/h-iPhone-mask@2x_resize_1x.webp" alt="mobile interface of app" />
+            <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/start/h-iPhone-mask@2x_resize_1x.webp" alt="mobile interface of app" loading="lazy" />
         </div>
         <div className="podappgrid1">
             <p className="tittle">Record from Anywhere</p>
@@ -122,8 +122,8 @@ function User (){
     <div className="podcast-dowload">
         <h1>Download it now.</h1>
         <div className="imgs">
-            <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/ios-app@2x_resize_1x.webp" alt="Download" />
-            <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/google-play@2x_resize_1x.webp" alt="Download" />
+            <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/ios-app@2x_resize_1x.webp" alt="Download" loading="lazy" />
+            <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/google-play@2x_resize_1x.webp" alt="Download" loading="lazy" />
         </div>
         <p className="discription">Unleash your creativity and capture stunning audio
             effortlessly from your mobile phone!
@@ -131,7 +131,7 @@ function User (){
     </div>
     <div className="appfun">
         <div>
-            <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/h-live_resize_1x.webp" alt="app" />
+            <img src="https://pbcdn1.podbean.com/fs1/site/www-v2/images/double/h-live_resize_1x.webp" alt="app" loading="lazy" />
         </div>
         <div className="txt">
             <h1>Live stream simplified, engage your audience</h1>
