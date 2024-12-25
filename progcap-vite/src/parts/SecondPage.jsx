@@ -1,7 +1,9 @@
 let SecondPage = function (){
     return(
         <>
-        <p>SecondPage</p>
+        <div className="page2">
+            
+        </div>
         </>
     )
 }

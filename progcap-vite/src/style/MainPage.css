@@ -1,0 +1,127 @@
+.page1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    margin-top: 5%;
+    padding-top: 6.5%;
+}
+.info{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    align-items: center;
+    margin-left: 5rem;
+}
+.info img{
+    width: 150px;
+}
+
+.info button{
+    background-color: #00fdec;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    padding-right: 20px;
+    border: 0;
+    border-radius: 0;
+}
+.infoh1{
+    font-size: 50px;
+    width: 550px;
+    font-weight: 700;
+}
+.p1{
+    width: 550px;
+}
+.info1{
+    margin-top: 8vh;
+}
+.info1h1{
+    margin-top: 80px;
+    margin-left: 38%;
+    width: 380px;
+    text-align: center;
+}
+.info1 p{
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+.img1 {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.img1-1{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.img1 img,.img1-1 img{
+    width: 100px;
+}
+.img1 h2,.img1-1 h2{
+    font-size: 2rem;
+    opacity: 0.8;
+    margin-bottom: 0;
+}
+.img1 p,.img1-1 p{
+    font-size: 1.2rem;
+    position: absolute;
+    margin-top: 0;
+}
+.info2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-top: 5rem;
+}
+.info2 img{
+    width: 450px;
+}
+.info2 h1{
+    width: 400px;
+}
+.img2-1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img2-1 img{
+    width: 250px;
+}
+.info3{
+    align-items: flex-end;
+    min-height: 520px;
+    max-height: 600px;
+    margin-top: -70px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: center;
+    justify-content: space-between;
+}
+.info3-1{
+    max-width: 480px;
+}
+.info3-1 h1{
+    width: 500px;
+}
+.info3-1 button{
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #5765F6;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img3-1 img{
+    max-height: 500px;
+}
